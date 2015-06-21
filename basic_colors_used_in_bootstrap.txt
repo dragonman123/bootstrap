@@ -1,0 +1,6 @@
+success, green
+active
+info, light blue
+warning, yellow
+danger, red
+Used as basic colors in bootstrap.

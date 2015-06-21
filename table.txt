@@ -1,0 +1,43 @@
+Default format of how to use tables.
+
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+Here, 
+thead is for heading for the table.
+tbody contains the content of the table.
+Now coming to properties of the table.
+class->
+.table, basic bootstrap table class..
+.table-striped, striped table, show some background color in the backgound.
+.table-bordered, show the border of the table columns and rows.
+.table-hover, highlight table's row when you hover mouse over it.
+.table-condensed, a little less padding for our table.
+
