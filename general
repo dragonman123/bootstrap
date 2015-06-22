@@ -1,0 +1,27 @@
+You can add thumbnail class to a tag also, in that way hyper links can be provided along with extra information inside that thumbnail.
+
+
+
+If you want to show some code in between, like usually found in w3schools, bootstrap official website etc., you can add the tag <code> Some code in between</code>
+
+
+
+You can add scroll bar to a pre tag by using class .pre-scrollable, it's really awesome
+
+
+
+Page header, a small thin line on the bottom of the top heading is already a built in function in the class .page-header
+
+
+
+Alerts, success, info, warning, error. Really awesome. But alerts without closing button at the right corner are not that much good and sometimes irritating, so add the close prop using it in the following manner
+
+<div class="alert alert-warning">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+</div>
+If you want to fade in the alert message while closing, then use the class .fade .in along with the above part as.
+class="alert alert-warning fade in"
+
+
+

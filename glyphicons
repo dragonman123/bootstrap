@@ -1,0 +1,11 @@
+first learn the syntax.
+<span class="glyphicon glyphicon-name"> </span>
+Now consider this example which skips the intermediate steps and directly jumps to the high level. ;-)
+
+<p>Print icon on a styled link button:
+    <a href="#" class="btn btn-success btn-lg">
+      <span class="glyphicon glyphicon-print"></span> Print 
+    </a>
+</p> 
+Clearly it shows the "success button", which is "large" and also "gyphicon print" is used as a "link" inside the button with the text inside it "Print"
+Awesome. :D

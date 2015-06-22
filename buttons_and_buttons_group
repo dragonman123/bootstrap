@@ -1,0 +1,46 @@
+.btn-default, normal white button
+.btn-primary, button with decent blue background
+.btn-success, button with green background indicating success
+.btn-info, button with light blue background
+.btn-warning, warning, yellow button
+.btn-danger, red background obviously. ;-)
+.btn-lin, just a link in the form of a button, no backgroud color for that.
+
+
+Now that the main classification based on the background color, you can also decide which type of button to put, like the small or the large, or medium.
+
+.btn-lg
+.btn-md
+.btn-sm
+.btn-xs
+Where xs stands for xtra small
+
+Next classification is active or disabled button.
+So just add active or disabled along with the button class that you are using.
+
+
+Next to enable block level button, just use this .btn-block class.ss
+
+Now coming to buttons group which I reallly found awesome.
+Just use the .btn-grp class to and add buttons that you want, they will come in one line and will give super feel..:-)
+Obviously the buttons can be put both in the vertical and the horizontal lines. :-), for vertical alignment of the buttons, use btn-group-vertical
+The size classification is also there in the buttons, like btn-grp-lg, or btn-grp-xs.
+
+Other, 
+btn-group-justified, just explore this.
+
+
+NOW ONE OF THE MOST IMPORTANT FEATURE.
+The button with the dropdown menu.
+
+<div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Sony <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Tablet</a></li>
+        <li><a href="#">Smartphone</a></li>
+      </ul>
+</div>
+here caret is the sign that is used to indicate the dropdown list.
+
+Now using just the above concept that we have learnt, we can easily design a button with seperate or splitted dropdown (hint, just use two seperate separate buttons)

@@ -1,0 +1,3 @@
+The .well class adds a rounded border around an element with a gray background color and some padding.
+The varities of well are large, small, and medium, written like well-sm, well-lg.
+Sometimes it really looks awesome :-)
