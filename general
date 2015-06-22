@@ -1,19 +1,20 @@
+HOW CAN I JUST GET THE THUMBNAIL IMAGE
 You can add thumbnail class to a tag also, in that way hyper links can be provided along with extra information inside that thumbnail.
 
 
-
+SHOW ME THE CODE
 If you want to show some code in between, like usually found in w3schools, bootstrap official website etc., you can add the tag <code> Some code in between</code>
 
 
-
+SCROLL BAR WITH PRE TAG
 You can add scroll bar to a pre tag by using class .pre-scrollable, it's really awesome
 
 
-
+PAGE HEADER
 Page header, a small thin line on the bottom of the top heading is already a built in function in the class .page-header
 
 
-
+BASIC INFORMATION ABOUT THE VARIOUS POPULAR COLOR SCHEMES USED IN BS AND TYPE OF ALERTS.
 Alerts, success, info, warning, error. Really awesome. But alerts without closing button at the right corner are not that much good and sometimes irritating, so add the close prop using it in the following manner
 
 <div class="alert alert-warning">
@@ -25,3 +26,61 @@ class="alert alert-warning fade in"
 
 
 
+
+PROGESS BARS
+
+Now this is really an awesome thing, once it comes to windows 7 progress bars, but don't underestimate the power of open source.:D
+The progress bars that bootstrap provide are really really awesome, specially the Animated and the striped ones.
+
+Ok, to add a progress bar, first add a class named progress. (Now let's take an example of 70% completed progress bars)
+Then another div with the class named progress-bar
+some basic stuffs like role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" 
+AND -> style="width:70%"
+are also added, among which the only one that I feel is important is that width:70% style, as it gives that much width to the progress bar.. :D
+
+Now coming to the variations part.
+Mainly there are two types of variations.
+1. It is available in the type, success, alert, info, which is pretty obvious as we are learning bootstrap.. :D
+2. There are awesome categories for it, like progress-bar-striped.
+Now to add animation the the striped progress bar, just add another class.
+class="progress-bar-striped progress-bar-striped active"
+And you will really feel awesome after it's implented.. :D
+
+3. It's not the end, many a time we come across such progress bars, which simultaneously show many  progresses in a single line, the best example is that used to show the partition scheme in Ubuntu, this are called stacked progress bar
+But, it does not require any new effort, just add all the progress bars, in the single div of class progress
+
+
+final example
+ <div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:40%">
+    Free Space
+  </div>
+  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" style="width:10%">
+    Warning
+  </div>
+  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" style="width:20%">
+    Danger
+  </div>
+</div>
+
+
+
+
+
+
+PAGINATION
+Now this is one of the thing that always made me wonder how cool is the thing that is present in the bottom of the page, dude, 
+don't think much it's pagination.. :D
+And from where have I got the inspiration of this. :D
+Wallpaper Downloading Scripts.. :D
+just add the class pagination and boom, you are done.
+But you cannot add this anywhere like others, it must be added with the unordered list tag (<ul>)
+Further, we have active class, disabled class which are used along with the li tag, and of course, pagination is  available in large, small size too, which
+can be used like class="pagination pagination-sm"
+
+
+
+If you want to add the pager along with pagination, like the prev and the next button, then also you have that class
+present in the BS
+just add class="pager" to ul.
+To align them, you can add previous and next to class of li.

@@ -1,0 +1,4 @@
+I learned this in the progress bars topic.
+If you want to hide the text of the progress bar, just do this.
+<span class="sr-only">70% completed</span>
+Then it will not show 70% complete, if you remove the class sr-only, then it will show that text in the progress bar.
